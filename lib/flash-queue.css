@@ -1,0 +1,52 @@
+.flash-queue {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.flash-message {
+  position: relative;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  padding: 8px 20px 8px 8px;
+  background-color: rgb(60, 60, 60);
+  background-color: rgba(60, 60, 60, 0.9);
+}
+
+.flash-message.is-notice {
+  color: rgb(70, 136, 71);
+  background-color: rgb(223, 240, 216);
+  background-color: rgba(223, 240, 216, 0.9);
+}
+
+.flash-message.is-alert {
+  color: rgb(185, 74, 72);
+  background-color: rgb(242, 222, 222);;
+  background-color: rgba(242, 222, 222, 0.9);
+}
+
+.flash-message.is-warning {
+  color: rgb(192, 152, 83);
+  background-color: rgb(252, 248, 227);
+  background-color: rgba(252, 248, 227, 0.9);
+}
+
+.flash-message.is-info {
+  color: rgb(58, 135, 173);
+  background-color: rgb(217, 237, 247);
+  background-color: rgba(217, 237, 247, 0.9);
+}
+
+.flash-delete {
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 13px 10px 17px;
+}
