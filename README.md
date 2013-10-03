@@ -26,7 +26,7 @@ App.flash = function(type, message) {
 And now you can flash to your :heart:'s content
 
 ```
-App.flash('notice', ':heart: EmberJS');
+App.flash('notice', '<3 EmberJS');
 ```
 
 ## Author
