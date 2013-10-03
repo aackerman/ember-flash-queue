@@ -8,12 +8,12 @@ Assumes `App` namespace by default. With options for scheduling 'destruction' of
 
 The main interface.
 
-```
+```js
 App.flashQueueController.flash('notice', 'Hello World!');
 ```
 
 Or even easier alias `flash` to the top level namespace.
-```
+```js
 // for ES5 environments
 App.flash = App.flashQueueController.flash.bind(App.flashQueueController)
 
@@ -25,7 +25,7 @@ App.flash = function(type, message) {
 
 And now you can flash to your :heart:'s content
 
-```
+```js
 App.flash('notice', '<3 EmberJS');
 ```
 
