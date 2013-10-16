@@ -2,7 +2,7 @@
 
 A client side flash queue similar to the Rails flash queue. For use with Ember. Completely ready to drop into an application, styling included. Or you can roll your own styling to better fit your application.
 
-You can view a complete demo [here on jsbin](http://emberjs.jsbin.com/OGesizA/6/edit).
+You can view a complete demo [here on jsbin](http://emberjs.jsbin.com/OGesizA/16/edit).
 
 Assumes `App` namespace by default. With options for scheduling 'destruction' of flashes. Allowing flashes to be dismissable by the user. And four different color schemes for alerts, info, notices, and warnings.
 
