@@ -1,5 +1,6 @@
 .flash-queue {
   position: fixed;
+  z-index: 9999;
   top: 20px;
   left: 50%;
   width: 400px;
