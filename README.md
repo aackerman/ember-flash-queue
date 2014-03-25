@@ -12,10 +12,20 @@ The main interface.
 App.flashQueueController.flash('notice', 'Hello World!');
 ```
 
+The html can be placed in your application template.
+
+```html
+<div class="flash-queue">
+  {{#each App.flashQueueController}}
+    {{view App.FlashMessageView}}
+  {{/each}}
+</div>
+```
+
 Or even easier alias `flash` to the top level namespace.
 ```js
 // for ES5 environments
-App.flash = App.flashQueueController.flash.bind(App.flashQueueController)
+App.flash = App.flashQueueController.flash.bind(App.flashQueueController);
 
 // for ES3 environments
 App.flash = function(type, message) {
