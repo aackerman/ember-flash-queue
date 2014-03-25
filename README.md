@@ -6,12 +6,6 @@ You can view a complete demo [here on jsbin](http://emberjs.jsbin.com/OGesizA/16
 
 Assumes `App` namespace by default. With options for scheduling 'destruction' of flashes. Allowing flashes to be dismissable by the user. And four different color schemes for alerts, info, notices, and warnings.
 
-The main interface.
-
-```js
-App.flashQueueController.flash('notice', 'Hello World!');
-```
-
 The html can be placed in your application template.
 
 ```html
@@ -20,6 +14,12 @@ The html can be placed in your application template.
     {{view App.FlashMessageView}}
   {{/each}}
 </div>
+```
+
+The main interface.
+
+```js
+App.flashQueueController.flash('notice', 'Hello World!');
 ```
 
 Or even easier alias `flash` to the top level namespace.
