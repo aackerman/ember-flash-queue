@@ -8,7 +8,7 @@ You can view a complete demo [here on jsbin](http://emberjs.jsbin.com/ember-flas
 
 Assumes `App` namespace by default. With options for scheduling 'destruction' of flashes. Allowing flashes to be dismissable by the user. And four different color schemes for alerts, info, notices, and warnings.
 
-The html can be placed in your application template.
+The necessary Handlebars can be placed in your application template.
 
 ```html
 <div class="flash-queue">
@@ -25,6 +25,7 @@ App.flashQueueController.flash('notice', 'Hello World!');
 ```
 
 Or even easier alias `flash` to the top level namespace.
+
 ```js
 // for ES5 environments
 App.flash = App.flashQueueController.flash.bind(App.flashQueueController);
