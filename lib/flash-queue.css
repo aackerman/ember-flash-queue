@@ -1,4 +1,5 @@
 .flash-queue {
+  font-family: Helvetica Neue, Helvetica, Arial;
   position: fixed;
   z-index: 9999;
   top: 20px;
